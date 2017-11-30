@@ -3,7 +3,6 @@ FactoryGirl.define do
     "test#{n}@example.com"
   end
 
-FactoryGirl.define do
   factory :user do
     first_name 'Jon'
     last_name 'Snow'
